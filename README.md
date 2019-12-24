@@ -1,4 +1,4 @@
-# emergent_web_server
+# simulator
 
 Some notes to help you get started:
 
@@ -25,5 +25,3 @@ To execute the Manager.o component go to the entry point machine, in the metacom
 When the system is running, one good way to make sure everything is working properly is to go to a web browser and type http://"entry_point_address":2012/danapedia. If you get a Danapedia page and are able to navigate through the web site properly, then it means everything is up and running.
 
 After the system is started, execute one client from the ws_client folder. Just compile one of them, for example, the Client5T.dn component located in "ws_clients/workload_A", with the command "dnc Client5T.dn" and execute it with "dana Client5T". In the InteractiveDistributor terminal type help for a list of all possible commands. You can list all possible compositions by typing "get_all_configs", or collect information from the entry point machine by typing "run 5 experiment", this command will iterate through all available software composition and collect data 5 rounds of data from each individual composition and dump the data into a file named experiment_0.data for the first composition, experiment_1.data for the second composition and so forth. 
-
-# simulator
